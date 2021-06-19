@@ -17,7 +17,7 @@ int max(int a[],int k)
 int max=a[0];
 for(int i=1;i<k;i++)
 {
-if(a[i]>a[0])
+if(a[i]>max)
 {
 max=a[i];
 }
