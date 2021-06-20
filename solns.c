@@ -67,3 +67,12 @@ int factors(int a,int b[])
     return j;
 }
 
+float average(int x[],int a)
+{
+float sum=0.00;
+for(int i=0;i<a;i++)
+{
+sum=sum+x[i];
+}
+return sum/(float)a;
+}
