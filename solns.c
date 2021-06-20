@@ -37,3 +37,16 @@ if(a[i]<min)
  }
 return (int)min;
 }
+
+int max(int a[],int k)
+{
+int max=a[0];
+for(int i=1;i<k;i++)
+{
+if(a[i]>max)
+{
+max=a[i];
+}
+}
+return (int)max;
+}
