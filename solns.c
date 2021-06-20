@@ -50,3 +50,20 @@ max=a[i];
 }
 return (int)max;
 }
+
+int factors(int a,int b[])
+{
+    int j=0;
+
+    for(int i=2;i<=a;i++)
+    {
+        while(a%i==0)
+        {
+          b[j]=i;
+          a=a/i;
+          j++;
+        }
+    }
+    return j;
+}
+
