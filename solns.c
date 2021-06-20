@@ -24,7 +24,6 @@ int mode(int a[],int n)
     return mode;
 }
 
-
 int min(int a[],int k)
 {
 int min=a[0];
@@ -76,3 +75,5 @@ sum=sum+x[i];
 }
 return sum/(float)a;
 }
+
+
