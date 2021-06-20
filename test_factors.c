@@ -21,18 +21,4 @@ int main(void) {
   assert (ret[1] == 13);
   printf("Factors: passed\n");
 }
-int factors(int a,int b[])
-{
-    int j=0;
 
-    for(int i=2;i<=a;i++)
-    {
-        while(a%i==0)
-        {
-          b[j]=i;
-          a=a/i;
-          j++;
-        }
-    }
-    return j;
-}
