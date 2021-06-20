@@ -21,4 +21,3 @@ int main(void) {
   assert (ret[1] == 13);
   printf("Factors: passed\n");
 }
-
